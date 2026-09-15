@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "strawbed",
+  "version": "${version}",
+  "name": "Straw Bed Backport",
+  "description": "A one-time use bed crafted from hay bales. Sleep through the night without resetting your spawn point.",
+  "authors": [
+    "gvoze32",
+    "byMr712"
+  ],
+  "contact": {
+    "sources": "https://github.com/byMr712/StrawBed-1.21.4-MinecraftMod"
+  },
+  "license": "MIT",
+  "icon": "assets/strawbed/textures/item/straw_bed.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.strawbed.StrawBedMod"
+    ]
+  },
+  "mixins": [
+    "strawbed.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.4",
+    "java": ">=21"
+  }
+}
