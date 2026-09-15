@@ -5,9 +5,7 @@
     "HHH"
   ],
   "key": {
-    "H": {
-      "item": "minecraft:hay_block"
-    }
+    "H": "minecraft:hay_block"
   },
   "result": {
     "id": "strawbed:straw_bed",
