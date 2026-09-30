@@ -17,6 +17,9 @@
   "entrypoints": {
     "main": [
       "com.example.strawbed.StrawBedMod"
+    ],
+    "client": [
+      "com.example.strawbed.StrawBedClient"
     ]
   },
   "mixins": [
